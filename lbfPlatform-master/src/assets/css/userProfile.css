@@ -1,0 +1,54 @@
+
+.navbar-mystyle {
+    border-color: transparent;
+    font-size:20px;
+    background-color: rgba(28, 43, 75, 1);
+    color: #f8f8f8;
+    font-weight: 450;
+    letter-spacing: 1px;
+    min-height: 50px;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:hover {
+     color: #FFF;
+     padding: 5px 5px;
+} 
+
+#lessonTittle { color:white; }
+
+#question { font-size: 20px;}
+
+.instructions {
+	font-size: 20px;
+	text-align: center;
+    color: black;
+
+
+}
+
+
+.qtag {
+    
+    padding: 20px;
+	border-top-style: solid ;
+	border-bottom-style: solid;
+    border-color: #98bf21;
+    height: 180px;
+    width: 100%;
+}
+
+#player{
+    background-color: rgba(28, 43, 75, 1);
+}
+
+
+.centerBtn {
+	padding-left: 150px;
+}
+
+.error{
+    color: red;
+}
+
+.status { color:green;
+}

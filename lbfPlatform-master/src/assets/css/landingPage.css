@@ -1,0 +1,75 @@
+
+.navbar-mystyle {
+    border-color: transparent;
+    font-size:15px;
+    color: #c1eee9;
+    background-color:rgba(28, 43, 75, 1);
+    /*  ;  color: #FFF;*/
+    
+    letter-spacing: 1px;
+    min-height: 30px;
+}
+
+.navbar-navbar-fixed-bar .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:hover {
+     
+     color: #1ae1cc;
+     padding: 22px 10px;
+     background-color: #1ae1cc;
+} 
+
+
+.intro_header {
+    
+     /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    
+    text-align:center;
+    color: #269bb8;
+    background: url(../pics/pro2.jpg ) no-repeat center center;
+    background-size: cover;
+    height:auto;
+    /* ../img/intro-bg.jpg */
+}
+
+.line_divider {
+
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(154,0,52,0.2);
+
+}
+
+#transparentblock{
+    
+    background-color: rgba(28, 43, 75,0.4);
+    height:600px;
+    width:100%;
+	
+    }
+
+.about-heading{
+    color: #1c2f4b;
+}
+
+.about{
+
+    height:600px;
+    background-color: rgba(153, 158, 165, 0.6);
+    color: white;
+    font-family: architects daughter;
+
+}    
+
+.footer{
+
+    height:auto;
+    background-color:#041226;
+    font-size: 25px;
+    color: #999ea5;
+    font-family: architects daughter;
+
+}
+
+.error{
+    color: red;
+    background-color: white;
+}

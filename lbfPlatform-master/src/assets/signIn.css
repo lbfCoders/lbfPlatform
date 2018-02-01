@@ -1,0 +1,26 @@
+.signIn {
+
+	padding-top: 150px;
+	height: 580px;
+	
+}
+
+.footer {
+  background-color: #05282b;
+  height: 100px;
+  font-size: 20px;
+}
+
+.footer p {
+  padding-top: 20px;
+  color: white;
+}
+
+
+@media (max-width: 992px) {
+
+ .signIn {
+ 	padding-top: 150px;
+ }
+
+}

@@ -21,6 +21,8 @@ import { AuthGuard } from './auth.service';
 import { routes } from './app.route';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { PasswordResetComponent } from './password-reset/password-reset.component';
+import { EmailVerificationComponent } from './email-verification/email-verification.component';
 
 export const firebaseConfig = {
     apiKey: "AIzaSyAZR2k-KQyYxK6_q0BoPwbDPE-FygCMLVI",
@@ -40,7 +42,9 @@ export const firebaseConfig = {
     WelcomeComponent,
     LoginComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    PasswordResetComponent,
+    EmailVerificationComponent
   ],
   imports: [
     BrowserModule,

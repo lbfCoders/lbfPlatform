@@ -1,0 +1,31 @@
+<!-- section form -->
+<section id="signIn" class="signIn">
+  <div class="container">
+
+    <h2>Login</h2>
+
+    <span class="error" *ngIf="error">{{ error }}</span>
+
+    <form #formData='ngForm' (ngSubmit)="onSubmit(formData)" class="form-horizontal">
+
+      <div class="form-group">
+        <label class="col-md-4 control-label"> Email</label>
+        <div class="col-md-6">
+          <input type="text" placeholder="Email address.." (ngModel)="email" name="email" class="txt form-control" required>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label class="col-md-4 control-label"> Password</label>
+        <div class="col-md-6">
+          <input type="password" placeholder="Password" (ngModel)="password" name="password" class="txt form-control" required>
+        </div>
+      </div>
+      
+
+      <button type="submit" [disabled]="!formData.valid" class="btn btn-primary">Login</button>
+      <a routerLink="/signup" class="alc">Don't have an account?</a>
+    </form>
+  </div>
+</section>
+

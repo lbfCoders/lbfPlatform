@@ -1,0 +1,65 @@
+
+.welcome {
+	padding:100px 0px 50px 0px;
+	height: auto; 
+}
+
+.footer {
+  background-color: #05282b;
+  height: 100px;
+  font-size: 20px;
+}
+
+.footer p {
+  padding-top: 20px;
+  color: white;
+}
+
+.myTabContent {
+	height: 500px;
+	margin-top: 35px;
+
+}
+.nav {
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 20px;
+}
+
+.search {
+  margin-top: 35px;
+  height: 580px;
+}
+
+@media (max-width: 992px) {
+
+  .search  {
+    font-size: 15px;
+  }
+  .intro-text {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .nav {
+    font-size: 22px;
+    padding: 0px;
+  }
+
+}
+@media(max-width: 768px){
+  .nav{
+    font-size: 15px;
+     padding: 0px;
+  }
+  .search , .form-group{
+   padding-left: 15px;
+   padding-right: 15px;
+  }
+}
+@media(max-width: 360px){
+  .nav{
+    font-size: 11px;
+     padding: 0px;
+  }
+}
+

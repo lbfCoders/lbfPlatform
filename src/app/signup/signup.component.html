@@ -1,3 +1,50 @@
-<p>
-  signup works!
-</p>
+<!-- section form -->
+<section id="signUp" class="signUp">
+  <div class="container"> 
+    <h2>Join now</h2>
+
+    <span class="error" *ngIf="error">{{ error }}</span>
+
+    <form #formData='ngForm' (ngSubmit)="onSubmit(formData)" class="form-horizontal">
+
+      <div class="form-group">
+        <label class="col-md-4 control-label"> Name</label>
+        <div class="col-md-6">
+          <input type="text" placeholder="Your name.." (ngModel)="name" name="name" class="txt form-control" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-md-4 control-label"> Phone Number</label>
+        <div class="col-md-6">
+          <input type="text" placeholder="Phone number.." (ngModel)="phone" name="phone" class="txt form-control" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-md-4 control-label"> Email</label>
+        <div class="col-md-6">
+          <input type="text" placeholder="Email address.." (ngModel)="email" name="email" class="txt form-control" required>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label class="col-md-4 control-label"> Password</label>
+        <div class="col-md-6">
+          <input type="password" placeholder="Password" (ngModel)="password" name="password" class="txt form-control" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-md-4 control-label"> Confirm Password</label>
+        <div class="col-md-6">
+          <input type="password" placeholder="Confirm Password" (ngModel)="confirm-password" name="confirm-password" class="txt form-control" required>
+        </div>
+      </div>
+      
+
+      <button type="submit" [disabled]="!formData.valid" class="btn btn-primary">Create my account</button>
+    </form>
+  </div>
+</section>
+
